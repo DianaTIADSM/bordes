@@ -7,52 +7,9 @@ p {
     font-family: Arial, sans-serif;
 }
 
-header {
-    background: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-
 h1 {
     font-family: Arial, sans-serif;
-}
-
-nav {
-    float: center;
-}
-
-nav ul {
-    list-style: none;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}
-
-nav ul li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li:hover {
-    background: #9F81D1;
-}
-
-ul.horizontal {
-    margin: 0;
-    padding: 0;
-}
-
-ul.horizontal li {
-    display: block;
-    float: left;
-    padding: 0 10px;
+    text-align: center;
 }
 
 .active {
@@ -71,59 +28,81 @@ ul.horizontal li {
 #bloque9,
 #bloque10 {
     width: 50%;
-    height: 150px;
-    background: #ccc;
+    height: 70px;
+    background: rgba(204, 204, 204, 0.522);
     margin: 20px;
+    text-align: center;
 }
 
 .borde1 {
-    border: #fc0000;
+    border-color: #fc0000;
     border-style: dotted;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde2 {
-    border: #005dcf;
+    border-color: #005dcf;
     border-style: dashed;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde3 {
-    border: #efbf62;
+    border-color: #efbf62;
     border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde4 {
-    border: #ba4a6e;
+    border-color: #ba4a6e;
     border-style: double;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde5 {
-    border: #4d9921;
+    border-color: #4d9921;
     border-style: groove;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde6 {
-    border: #bfffff;
+    border-color: #bfffff;
     border-style: ridge;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde7 {
-    border: #f3829a;
+    border-color: #f3829a;
     border-style: inset;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde8 {
-    border: #8c8477;
+    border-color: #8c8477;
     border-style: outset;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde9 {
-    border: #963542;
-    border-style: none;
+    border-color: #963542;
+    border-style: double solid dotted dashed;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .borde10 {
-    border: #4a6aba;
-    border-style: hidden;
+    border-color: #4a6aba;
+    border-bottom: double;
+    border-top:double;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .margen1 {
