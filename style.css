@@ -1,15 +1,23 @@
 body {
-    background-image: linear-gradient(180deg, #f2bfff 0, #d5aeff 25%, #b99df2 50%, #9e8cd6 75%, #867bbc 100%);
-
+    background-color: #b194f8
 }
 
 p {
     font-family: Arial, sans-serif;
 }
 
+.center {
+    text-align: center;
+}
+
+
 h1 {
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
 }
 
 .active {
@@ -27,10 +35,10 @@ h1 {
 #bloque8,
 #bloque9,
 #bloque10 {
-    width: 50%;
+    width: auto;
     height: 70px;
     background: rgba(204, 204, 204, 0.522);
-    margin: 20px;
+    margin: 1rem;
     text-align: center;
 }
 
@@ -100,7 +108,7 @@ h1 {
 .borde10 {
     border-color: #4a6aba;
     border-bottom: double;
-    border-top:double;
+    border-top: double;
     border-width: 5px;
     border-radius: 20px;
 }
@@ -122,4 +130,26 @@ h1 {
     margin-bottom: 100px;
     border-style: double;
     background-color: #8c8477;
+}
+
+footer {
+    background-color: #640957;
+}
+
+footer p {
+    text-align: center;
+    padding: 1rem;
+    color: #d6ceff;
+}
+
+/*
+section {
+    margin: 0px auto !important;
+}
+*/
+
+.contenedorprincipal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
